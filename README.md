@@ -23,6 +23,19 @@ dependencies:
   ayet_sdk_v2: ^1.0.0
 ```
 
+### Android Setup
+
+Add the internet permission to your `AndroidManifest.xml`:
+
+```xml
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application>
+        ...
+    </application>
+</manifest>
+```
+
 ### iOS Setup
 
 Enable Swift Package Manager:

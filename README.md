@@ -20,7 +20,7 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  ayet_sdk_v2: ^1.0.1
+  ayet_sdk_v2: ^1.0.2
 ```
 
 ### Android Setup
